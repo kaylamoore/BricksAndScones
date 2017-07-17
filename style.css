@@ -61,56 +61,29 @@ body {
   padding: 30px;
 }
 
-
-/*
- * Header
- */
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.lead {
+  margin: auto;
 }
 
-.masthead-nav > li {
-  display: inline-block;
-}
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #FFF4CB; /* IE8 proofing */
-  color: #FFF4CB;
-  border-bottom: 2px solid transparent;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #FFF4CB;
-  border-bottom-color: #fff;
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
 }
 
-.masthead-nav img {
+.navbar img {
   height: 35px;
 }
 
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
+
+.after-top {
+    background: #22262e;
 }
 
+.cover-heading {
+  padding-top: 75px;
+}
 
  h3 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -188,6 +161,17 @@ h1 {
 
 h2 {
   letter-spacing: .5rem;
+}
+
+.perks {
+  background-color: #252525;
+  padding: 40px 0px 80px 0px;
+
+}
+
+.media-object img {
+  height: 100px;
+  width: 100px;
 }
 
 .reviews {
